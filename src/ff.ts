@@ -8,7 +8,7 @@ const completionSpec: Fig.Spec = {
                 icon: '🟢',
                 name: 'Sync all projects',
                 description: 'Ff sync',
-                insertValue: `\b\b\bcd ~/repos/portal-meta\nmeta git checkout master\nmeta git pull\nff artisan migrate && ff artisan migrate --velocity && ff artisan migrate --bsm && ff npm ci && ff npm -- run buildDev\n`,
+                insertValue: `\b\b\bcd ~/repos/portal-meta\nmeta git checkout master\nmeta git pull\nff artisan migrate && ff artisan migrate --app velocity && ff artisan migrate --bsm && ff npm ci && ff npm -- run buildDev\n`,
             },
             {
                 icon: '🟢',
@@ -161,6 +161,7 @@ const completionSpec: Fig.Spec = {
                     'proxy',
                     'redis',
                     'velocity-php',
+                    'etl-php',
                 ],
             },
             options: [
@@ -192,6 +193,7 @@ const completionSpec: Fig.Spec = {
                     'proxy',
                     'redis',
                     'velocity-php',
+                    'etl-php',
                 ],
             },
             options: [
@@ -435,6 +437,7 @@ const completionSpec: Fig.Spec = {
                     'proxy',
                     'redis',
                     'velocity-php',
+                    'etl-php',
                 ],
             },
             options: [
